@@ -1,4 +1,4 @@
-<h1 align="center">🌎 Mundo-Tec</h1>
+<h1 align="center"><a href="https://flavio-nassim-bittar-filho.github.io/MundoTec/">🌐 Mundo-Tec</a></h1>
 <p>
     Este projeto tem como objetivo desenvolver um site fictício intitulado de 'Mudo-Tec', com o intuito de representar um blog de notícias de tecnologias.
 </p>
