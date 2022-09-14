@@ -1,0 +1,66 @@
+/*Estilizando o cabeçalho*/
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    height: 130px;
+    width: 100%;
+    background-image: linear-gradient(black,#cacaca );
+    opacity: 0.95;
+    border-radius: 0 0 25px 25px;
+    box-shadow:  0px 15px 25px #00000063;
+}
+
+header h1 {
+    font-size: 3em;
+    font-family: 'Cube';
+    color: #ffffff;
+}
+
+header span {
+    color: #0390c5;
+}
+
+div {
+    height: 1080px;
+}
+
+body {
+    background-image: url('../Images/pixel-map.svg');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+h1, nav {
+    display: flex;
+    align-items: center;
+}
+
+ul, li, a{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+}
+
+nav {
+    height: 50px;
+    width: 50%;
+    min-width: 650px;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Cube';
+}
+
+a:hover {
+    color: #0390c5;
+}
