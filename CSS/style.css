@@ -127,10 +127,3 @@ div.campo span {
     justify-content: flex-end;
     color: #bbbbbb;
 }
-
-@media(min-width: 400px){
-    body {
-        background-color: #00bbff;
-    }
-}
-
