@@ -2,3 +2,13 @@
     font-family: 'Cube';
     src: url('../Font/G7_Cube_5.ttf');
 }
+
+@font-face {
+    font-family: 'command';
+    src: url('../Font/commando.ttf');
+}
+
+@font-face {
+    font-family: 'Easport';
+    src: url('../Font/EASPORTS15.ttf');
+}

@@ -115,15 +115,19 @@ div.campo {
 div.campo h3{
     font-size: 3em;
     margin: 10px;
+    font-family: 'command';
 }
 
 div.campo p {
     margin: 10px 25px;
+    font-family: 'Easport';
+    line-height: 30px;
 }
 
 div.campo span {
     display: flex;
     margin: 10px;
+    font-family: 'Easport';
     justify-content: flex-end;
     color: #bbbbbb;
 }
