@@ -61,7 +61,7 @@ a {
     font-size: 1.5em;
 }
 
-a:hover {
+header a:hover, .selecionado a {
     color: #0390c5;
     filter: drop-shadow(0 0 10px #00bbff);
 }
@@ -92,18 +92,6 @@ div.caixa::after{
     background-image: linear-gradient(#ffffff00, #0000009c);
 }
 
-div.img1 {
-    background-image: url('../Images/imagem1.jpg');
-}
-
-div.img2 {
-    background-image: url('../Images/imagem2.jpg');
-}
-
-div.img3 {
-    background-image: url('../Images/imagem3.jpg');
-}
-
 div.campo {
     color: #ffffff;
     /* min-height: 185px; */
@@ -122,6 +110,31 @@ div.campo p {
     margin: 10px 25px;
     font-family: 'Easport';
     line-height: 30px;
+}
+
+div.campo div:nth-child(3) {
+    display: flex;
+    justify-content: center;
+}
+
+div.campo a {
+    display: flex;
+    margin: 10px;
+    font-family: 'Easport';
+    background-color: #24242899;
+    padding: 10px 25px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border-bottom: 1px solid #ffffff3d;
+    box-shadow: 0px 10px 5px #00000036;
+    color: #bbbbbb;
+}
+
+div.campo a:hover {
+    color: #0390c5;
+    filter: drop-shadow(0 0 10px #00bbff);
 }
 
 div.campo span {

@@ -1,0 +1,29 @@
+/* 2020 */
+div.img1 {
+    background-image: url('../Images/imagem1.jpg');
+}
+
+/* 2019 */
+div.img2 {
+    background-image: url('../Images/imagem5.jpg');
+}
+
+/* 2016 */
+div.img3 {
+    background-image: url('../Images/imagem3.jpg');
+}
+
+/* 2013 */
+div.img4 {
+    background-image: url('../Images/imagem6.jpg');
+}
+
+/* 2010 */
+div.img5 {
+    background-image: url('../Images/imagem2.jpg');
+}
+
+/* 1990 */
+div.img6 {
+    background-image: url('../Images/imagem4.jpg');
+}
